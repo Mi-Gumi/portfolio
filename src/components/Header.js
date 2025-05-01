@@ -32,6 +32,12 @@ const NavLinks = styled.div`
   }
 `;
 
+const LogoLink = styled(Link)`
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+`;
+
 const NavLink = styled(Link)`
   color: #333;
   text-decoration: none;
@@ -75,7 +81,7 @@ const Header = memo(function Header() {
       boxShadow: isScrolled ? '0 2px 10px rgba(0,0,0,0.1)' : 'none'
     }}>
       <Nav>
-        <NavLink to="/">Portfolio</NavLink>
+        <LogoLink to="/">Portfolio</LogoLink>
         <NavLinks>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About</NavLink>
