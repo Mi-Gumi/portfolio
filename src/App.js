@@ -137,8 +137,8 @@ function App() {
               color: '#444', 
               textAlign: 'center' 
             }}>
-              이메일: your.email@example.com<br />
-              GitHub: github.com/yourusername
+              이메일: woojunjung18@gmail.com<br />
+              GitHub: github.com/Mi-Gumi
             </p>
           </SectionContent>
         </Section>
