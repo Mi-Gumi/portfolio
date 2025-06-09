@@ -79,7 +79,7 @@ function App() {
         >
           <SectionContent>
             <h1 style={{ fontSize: '3.5rem', marginBottom: '1rem' }}>안녕하세요</h1>
-            <p style={{ fontSize: '1.5rem', color: '#666' }}>프론트엔드 개발자입니다</p>
+            <p style={{ fontSize: '1.5rem', color: '#666' }}>at Front to End</p>
           </SectionContent>
         </Section>
 
@@ -126,7 +126,7 @@ function App() {
         <Section 
           id="contact" 
           style={{ 
-            backgroundColor: '#f8f9fa'  // 연한 회색 배경
+            backgroundColor: '#f8f9fa'  // 연한 회색
           }}
         >
           <SectionTitle>Contact</SectionTitle>
