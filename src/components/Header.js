@@ -108,7 +108,7 @@ const Header = memo(function Header() {
         <NavLinks>
           {/* 각 네비게이션 링크 클릭 시 해당 섹션으로 스크롤 */}
           <NavLink onClick={() => scrollToSection('home')}>Home</NavLink>
-          <NavLink onClick={() => scrollToSection('about')}>About</NavLink>
+          <NavLink onClick={() => scrollToSection('about')}>About Me</NavLink>
           <NavLink onClick={() => scrollToSection('projects')}>Projects</NavLink>
           <NavLink onClick={() => scrollToSection('contact')}>Contact</NavLink>
         </NavLinks>
