@@ -47,7 +47,7 @@ const Logo = styled.a`
 const NavLink = styled.a`
   color: #333;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 510;
   position: relative;  // 하단 밑줄 효과를 위한 상대 위치
   cursor: pointer;
   
