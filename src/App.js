@@ -93,9 +93,7 @@ function App() {
           <SectionTitle>About Me</SectionTitle>
           <SectionContent>
             <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#444', marginBottom: '2rem' }}>
-              프론트엔드 개발에 대한 열정을 가지고 있으며, 사용자 경험을 중요시합니다.
-              React, JavaScript, TypeScript 등의 기술 스택을 다루며, 
-              지속적인 학습과 성장을 추구합니다.
+              at Front to End
             </p>
             <h3 style={{ marginBottom: '1rem', color: '#333' }}>기술 스택</h3>
             <SkillBar skills={skills} />
