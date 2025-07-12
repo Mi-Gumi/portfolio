@@ -104,7 +104,7 @@ function App() {
         <Section 
           id="projects" 
           style={{ 
-            backgroundColor: '#ffffff'  // 흰색 배경
+            backgroundColor: '#ffffff'
           }}
         >
           <SectionTitle>Projects</SectionTitle>
