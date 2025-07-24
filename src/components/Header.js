@@ -8,7 +8,7 @@ const HeaderContainer = styled.header`
   right: 0;
   width: 100%;
   background: ${({ isScrolled }) =>
-    isScrolled ? 'rgba(255,255,255,0.97)' : 'transparent'};
+    isScrolled ? '#bbdefb' : '#e3f2fd'};
   box-shadow: ${({ isScrolled }) =>
     isScrolled ? '0 2px 10px rgba(0,0,0,0.08)' : 'none'};
   transition: background 0.3s, box-shadow 0.3s;
