@@ -31,7 +31,7 @@ const Square = styled.div`
   width: 20px;
   height: 20px;
   background-color: ${props => props.filled ? '#333' : '#e0e0e0'};
-  border-radius: 2px;
+  border-radius: 6px;
 `;
 
 const SkillBar = ({ skills }) => {
