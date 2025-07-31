@@ -23,7 +23,7 @@ const SkillName = styled.span`
 // 점수 표시 컨테이너
 const ScoreContainer = styled.div`
   display: flex;
-  gap: 4px;
+  gap: 5px;
 `;
 
 // 개별 사각형 스타일
