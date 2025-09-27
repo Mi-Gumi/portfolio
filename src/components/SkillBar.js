@@ -27,7 +27,7 @@ const ScoreContainer = styled.div`
 `;
 
 // 개별 사각형 스타일
-const Square = styled.div`
+const Square = styled.div`  
   width: 20px;
   height: 20px;
   background-color: ${props => props.filled ? '#333' : '#e0e0e0'};
@@ -42,13 +42,17 @@ const SkillBar = ({ skills }) => {
           <SkillName>{skill.name}</SkillName>
           <ScoreContainer>
             {[...Array(5)].map((_, i) => (
-              <Square key={i} filled={i < skill.score} />
+              <Square 
+                key={i} 
+                filled={i < skill.score}
+                aria-label={`${skill.name} ${i + 1}점 ${i < skill.score ? '획득' : '미획득'}`}
+              />
             ))}
           </ScoreContainer>
         </SkillRow>
       ))}
     </SkillContainer>
   );
-};
+};  
 
 export default SkillBar; 

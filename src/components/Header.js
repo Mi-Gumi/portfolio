@@ -85,7 +85,7 @@ const NavLink = styled.a`
 const MenuButton = styled.button`
   display: none;
   background: none;
-  border: none;
+  border: none;s
   cursor: pointer;
   @media (max-width: 768px) {
     display: block;
@@ -138,17 +138,17 @@ const Header = () => {
   return (
     <HeaderContainer isScrolled={isScrolled}>
       <Nav>
-        <Logo onClick={() => scrollToSection('home')}>Portfolio</Logo>
-        <MenuButton onClick={() => setMenuOpen((v) => !v)} aria-label="메뉴 열기">
+        <Logo onClick={() => scrollToSection('home')} aria-label="홈으로 이동">Portfolio</Logo>
+        <MenuButton onClick={() => setMenuOpen((v) => !v)} aria-label={menuOpen ? "메뉴 닫기" : "메뉴 열기"}>
           <Bar />
           <Bar />
           <Bar />
         </MenuButton>
         <NavLinks open={menuOpen}>
-          <li><NavLink onClick={() => scrollToSection('about')}>About</NavLink></li>
-          <li><NavLink onClick={() => scrollToSection('skills')}>Skills</NavLink></li>
-          <li><NavLink onClick={() => scrollToSection('projects')}>Projects</NavLink></li>
-          <li><NavLink onClick={() => scrollToSection('contact')}>Contact</NavLink></li>
+          <li><NavLink onClick={() => scrollToSection('about')} aria-label="자기소개 섹션으로 이동">About</NavLink></li>
+          <li><NavLink onClick={() => scrollToSection('skills')} aria-label="기술 스택 섹션으로 이동">Skills</NavLink></li>
+          <li><NavLink onClick={() => scrollToSection('projects')} aria-label="프로젝트 섹션으로 이동">Projects</NavLink></li>
+          <li><NavLink onClick={() => scrollToSection('contact')} aria-label="연락처 섹션으로 이동">Contact</NavLink></li>
         </NavLinks>
       </Nav>
     </HeaderContainer>
